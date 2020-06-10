@@ -1,0 +1,5 @@
+module CEvent [system] {
+	umbrella header "event.h"
+	link "event"
+	export *
+}
