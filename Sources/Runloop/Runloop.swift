@@ -32,7 +32,7 @@ public class Runloop {
 		event.remove()
 	}
 
-	internal func run() {
+	public func run() {
 		guard event_base_dispatch(eventBase) == 1 else {
 			fatalError("Runloop failed")
 		}
